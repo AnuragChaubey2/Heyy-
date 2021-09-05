@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_video"
+        android:title="Video Call"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_calls"
+        android:title="Audio Call"
+        app:showAsAction="always" />
+    <item android:title="Profile" />
+    <item android:title="Block" />
+    <item android:title="Settings" />
+
+</menu>

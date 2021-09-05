@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55225f"
+    tools:context=".profileSettings">
+
+
+    <ImageView
+        android:id="@+id/leftArrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/left_arrow"
+        app:tint="@color/white"
+        tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:id="@+id/Linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/profie_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:shapeAppearanceOverlay="@style/circular"
+            app:srcCompat="@drawable/avatar"
+
+            />
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="6dp"
+                android:text="UserName:"
+                android:textColor="#FDFCFC"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter New User Name"
+                android:layout_marginTop="50dp"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF" />
+
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_background"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:text="SAVE" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/linear_bg"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <TextView
+            android:id="@+id/privatepolicy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:text="Private Policy"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/about_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:drawableLeft="@drawable/ic_baseline_child_care_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:text="About Us"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:drawableLeft="@drawable/ic_baseline_help_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:text="Help"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>
