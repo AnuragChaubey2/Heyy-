@@ -4,4 +4,4 @@ A fully functioning real time chatting application which uses all the key concep
 ![photo_2021-09-05_21-22-24](https://user-images.githubusercontent.com/77793801/132133163-fa121d8f-e952-4c58-ac9a-8308ce596508.jpg)
 ![photo_2021-09-05_21-22-33](https://user-images.githubusercontent.com/77793801/132133164-92e26f5d-db71-4f06-916e-96695f756754.jpg)
 ![photo_2021-09-05_21-22-40](https://user-images.githubusercontent.com/77793801/132133166-c1020237-f757-4f4d-a929-bf7c5c44bb91.jpg)
-![photo_2021-09-05_21-22-12](https://user-images.githubusercontent.com/77793801/132133170-258d1786-59d3-46ae-9c3d-f5cec8052de0.jpg)
+![app](https://user-images.githubusercontent.com/77793801/137119356-4bc16dbb-fc50-41a3-9964-8876b454fb5d.png)
